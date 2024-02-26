@@ -651,9 +651,9 @@
 }
 
 .desktop .available {
+  margin: 0;
   position: relative;
   width: fit-content;
-  margin-top: -1px;
   font-family: "Poppins-Light", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -1087,31 +1087,26 @@
   }
   
   .iphone-pro-max .logo-2 {
+    display: flex;
+    gap: 10px;
     position: relative;
     width: 149px;
     height: 45px;
   }
   
   .iphone-pro-max .MENTA-lcare {
-    position: absolute;
-    top: -2px;
-    left: 57px;
-    font-family: "Crimson Text-Bold", Helvetica;
+        font-family: "Crimson Text-Bold", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 15.8px;
     letter-spacing: 0;
     line-height: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-left: 56px;
   }
   
   .iphone-pro-max .span {
     font-weight: 700;
-    margin-right: 5px;
-  }
+      }
   
   .iphone-pro-max .text-wrapper-3 {
     font-family: "Crimson Text-Regular", Helvetica;
@@ -1267,7 +1262,7 @@
   .iphone-pro-max .available {
     position: relative;
     width: fit-content;
-    margin-top: -0.65px;
+    margin: 0;
     font-family: "Poppins-Light", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -1595,25 +1590,20 @@
   }
   
   .iphone-pro-max .logo-3 {
-    position: relative;
+    display: flex;
+    gap: 10px;
     width: 72px;
     height: 21px;
   }
   
   .iphone-pro-max .MENTA-lcare-2 {
-    position: absolute;
-    top: -2px;
-    left: 27px;
     font-family: "Crimson Text-Bold", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 7.4px;
     letter-spacing: 0;
     line-height: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-left: 25px;
   }
   
   .iphone-pro-max .logo-4 {
